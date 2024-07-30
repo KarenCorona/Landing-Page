@@ -4,14 +4,13 @@ body {
     display: flex;;
     flex-direction: column;
     margin: 0;
-    padding: 0;
 }
 
 header {
     display: flex;
     flex: 1;
     background-color: #1F2937;
-    padding: 16px;
+    padding: 16px 100px;
     align-items: center;
 }
 
@@ -37,7 +36,7 @@ ul {
     flex: 1;
     align-items: center;
     background-color: #1F2937 ;
-    padding: 16px;
+    padding: 16px 100px;
 }
 
 .main_left {
@@ -76,7 +75,7 @@ ul {
     flex-direction: column;
     flex: 1;
     background-color: #f9faf8;
-    padding: 16px;
+    padding: 16px 100px;
     align-items: center;
 }
 
@@ -111,11 +110,18 @@ ul {
     flex: 1;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 64px;
+    padding: 64px 100px;
     align-items: right;
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.quoteContainer {
+    display: flex;
+    flex: 1;
+    justify-content: right;
+    align-items: center;
 }
 
 .main4 {
